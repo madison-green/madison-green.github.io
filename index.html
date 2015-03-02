@@ -1,9 +1,116 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>madison-green</title>
-		<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.2/superhero/bootstrap.min.css" rel="stylesheet">
+		<title>Hello world!</title>
+		<meta charset="utf-8">
+		<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<h1>My page</h1>
+
+<!--Navigation Bar. Not done yet.-->
+		<nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">madison-green</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Heading/Jumbotron-->
+		<div class="container">
+		  <div class="jumbotron">
+			 <a href=http://madison-green.github.io>
+ 			  <h1 class="text-center">Madison Green</h1>
+  		 </a>     
+ 			 <p class="text-center" style="font-family:Comic Sans MS,sans-serif">Much wow. Many HTML. Meh font.</p>
+		  </div>
+			
+
+      <!--Education-->
+      <p class="bg-danger text-center" style="font-size:35px;color:azure">Education</p>
+        <div class="col-md-6">
+          <a href="http://www.mst.edu">
+            <h3 class="text-left" style="color:darkslategrey">Missouri University of Science and Technology</h3>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-right"><em>Rolla, Missouri</em></h3>
+        </div>
+        <h4><em>Began August 2014</h4>
+        <h4><strong>Computer Science Major</strong></em></h4>
+
+      <!--Activities-->
+  		<p class="bg-info text-center" style="font-size:35px;color:azure">Activities</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3><strong>ACM SIG-Game</strong></h3>
+              </div>
+                <div class="panel-body">
+                  <ul>
+                    <li><em>Spring 2015</em></li>
+                    <li>Web Server Team</li>
+                      <ul>
+                        <li>Design and maintain SIG-Game website</li>
+                      </ul>
+                  </ul>
+                  <a href="http://blog.megaminerai.com/webserver/">
+                    <button type="button" class="btn btn-default btn-sm center-block"style="font-size:15px">Check out our website!</button>
+                  </a> 
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3><strong>Google Outreach Program</strong></h3>
+                      </div>
+                        <div class="panel-body">
+                          <ul>
+                            <li><em>March-April 2015</em></li>
+                            <li>Teach Rolla Junior High students basic computer programming</li>
+                            <li>Plan, lead, and help with sessions</li>
+                          </ul>
+                        </div>
+                    </div>  
+                  </div>
+
+          <div class="col-md-4">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3><strong>ACM-Women</strong></h3>
+            </div>
+              <div class="panel-body">
+                <ul>
+                  <li><em>Spring 2015</em></li>
+                  <li>Promote women in computer science</li>
+                  <li>Participate in educational and outreach activities</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--Contact Info-->
+      <p class="bg-warning text-center" style="font-size:35px;color:azure">Contact</p>
+      <p></p>
+        <a href="mailto:mngd5d@mst.edu">
+          <button type="button" class="btn btn-primary btn-lg center-block">Email me!</button>
+        </a> 
+  		<p></p>
+	  </div>
 	</body>
 </html>
